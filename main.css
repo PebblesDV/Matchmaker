@@ -7,3 +7,21 @@ body {
   background-color: #ffd1f7;
   font-family: "Inter", sans-serif; /*Specifying family*/
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 4px 4px black;
+  color: #db2473;
+}
+
+.cupido {
+  width: 10%;
+  height: auto;
+}
