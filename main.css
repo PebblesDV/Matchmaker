@@ -44,6 +44,10 @@ body {
   align-items: center;
 }
 
+#nameA {
+  background-color: yellow;
+}
+
 .left-name {
   border: 3px solid #db2473;
   box-shadow: 2px 3px black; /*Adds a bottom shadow*/

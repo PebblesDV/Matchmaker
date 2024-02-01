@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
   </head>
   <body>
     <div class="header">
@@ -19,12 +20,30 @@
       <img class="heart" src="assets/HeartOutlineTransparent.png" />
     </div>
     <div class="names-area">
-      <div class="left-name"></div>
-      <div class="heart-and-text">
-        <img class="test-heart" src="assets/FilledHeart.png" />
-        <p class="heart-text">Test!</p>
+      <div class="left-name">
+        <input
+          type="text"
+          id="nameA"
+          name="nameA"
+          maxlength="19"
+          placeholder="Jack"
+        />
       </div>
-      <div class="right-name"></div>
+      <div class="heart-and-text">
+        <button onclick="calculateMatch()">
+          <img class="test-heart" src="assets/FilledHeart.png" />
+          <p class="heart-text">Test!</p>
+        </button>
+      </div>
+      <div class="right-name">
+        <input
+          type="tekst"
+          id="nameB"
+          name="nameB"
+          maxlength="19"
+          placeholder="Rose"
+        />
+      </div>
     </div>
     <div class="footer">
       <img class="cupido" src="assets/CupidoFacingUpRight.png" />
