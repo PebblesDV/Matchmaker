@@ -1,6 +1,7 @@
 function calculateMatch() {
   let nameA = document.getElementById("nameA").value;
   let nameB = document.getElementById("nameB").value;
+  console.log(nameA);
   if (nameA && nameB) {
     a = nameA.length;
     b = nameB.length;
@@ -29,11 +30,11 @@ function calculateMatch() {
     myInterval = setInterval(function(){
       if (e >= d) {
         e = Math.round(e);
-        document.getElementById("percentageText").innerHTML = e + "%!";
+        document.getElementById("loveText").innerHTML = e + "%!";
         clearInterval(myInterval);
       } else {
         e = Math.round(e);
-        document.getElementById("percentageText").innerHTML = e + "%!";
+        document.getElementById("loveText").innerHTML = e + "%!";
         e++
     }
     }, 100)
