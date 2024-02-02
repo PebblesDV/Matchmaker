@@ -28,7 +28,13 @@ body {
 }
 
 .text-area {
-  color: black;
+  margin-left: 53%;
+  border: none;
+}
+
+#loveText {
+  color: #bb2264;
+  font-weight: bold;
 }
 
 .heart-area {
