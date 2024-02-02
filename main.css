@@ -133,12 +133,12 @@ body {
   top: -4px;
   width: 70px;
   z-index: 3;
-  transition: height 0.5s ease-in-out; 
+  transition: height 1.5s ease-in-out; 
   color: #e74c3c;
 }
 
 #heart.filled .fill {
-  height: 65px;
+  height: 0px;
 }
 
 #heart .outline {
