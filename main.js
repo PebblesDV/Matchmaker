@@ -25,28 +25,22 @@ function calculateMatch() {
   }
 
   if (d) {
-    extra = calculateRating();
-    //document.getElementById("inputhere").innerHTML = d + "%! " + extra;
-    console.log(d + "%! " + extra);
-  } else {
-    //document.getElementById("inputhere").innerHTML = "Dude, fill in both names.";
-    console.log("Dude, fill in both names.");
+    e = 0;
+    myInterval = setInterval(function(){
+      if (e >= d) {
+        e = Math.round(e);
+        document.getElementById("percentageText").innerHTML = e + "%!";
+        clearInterval(myInterval);
+      } else {
+        e = Math.round(e);
+        document.getElementById("percentageText").innerHTML = e + "%!";
+        e++
+    }
+    }, 100)
+    
   }
 }
 
-function calculateRating() {
-  if (d == 100) {
-    return "You are a perfect match!";
-  } else if (d >= 80 && d < 100) {
-    return "You are amazing for each other!";
-  } else if (d >= 60 && d < 80) {
-    return "You are pretty good for each other!";
-  } else if (d >= 40 && d < 60) {
-    return "You could do worse.";
-  } else {
-    return "Miss Match!";
-  }
-}
 
 function fillHeart() {
   var heart = document.getElementById('heart');
