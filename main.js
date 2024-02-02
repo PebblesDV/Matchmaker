@@ -43,8 +43,12 @@ function calculateMatch() {
 
 
 function fillHeart() {
-  var heart = document.getElementById('heart');
-  heart.classList.toggle('filled');
+  if (d) {
+    var heart = document.getElementById('heart');
+    heart.classList.toggle('filled');    
+    } else {
+      
+    }
 }
 
 function pushButton() {
