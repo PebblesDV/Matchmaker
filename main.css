@@ -84,6 +84,11 @@ body {
   ); /*Transform combined with "left" stated above makes it be exactly in the middle*/
 }
 
+.heart-button {
+  border-style: none;
+  background: #ffd1f7;
+}
+
 .right-name {
   width: 15%;
   height: 40px;
