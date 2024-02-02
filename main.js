@@ -47,3 +47,13 @@ function calculateRating() {
     return "Miss Match!";
   }
 }
+
+function fillHeart() {
+  var heart = document.getElementById('heart');
+  heart.classList.toggle('filled');
+}
+
+function pushButton() {
+  calculateMatch();
+  fillHeart();
+}

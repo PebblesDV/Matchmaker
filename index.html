@@ -17,7 +17,10 @@
       <img class="cupido" src="assets/CupidoFacingLeft.png" />
     </div>
     <div class="heart-area">
-      <img class="heart" src="assets/HeartOutlineTransparent.png" />
+      <div id="heart">
+        <div class="fill"></div>
+        <div class="outline"></div>
+      </div>
     </div>
     <div class="names-area">
       <div class="left-name">
@@ -30,7 +33,7 @@
         />
       </div>
       <div class="heart-and-text">
-        <button class="heart-button" onclick="calculateMatch()">
+        <button class="heart-button" onclick="pushButton()">
           <img class="test-heart" src="assets/FilledHeart.png" />
           <p class="heart-text">Test!</p>
         </button>
