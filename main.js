@@ -1,7 +1,6 @@
 function calculateMatch() {
   let nameA = document.getElementById("nameA").value;
   let nameB = document.getElementById("nameB").value;
-  console.log(nameA);
   if (nameA && nameB) {
     a = nameA.length;
     b = nameB.length;

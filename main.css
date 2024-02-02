@@ -27,6 +27,10 @@ body {
   height: auto;
 }
 
+.text-area {
+  color: black;
+}
+
 .heart-area {
   margin-bottom: 30px;
   margin-left: 47.5%;
